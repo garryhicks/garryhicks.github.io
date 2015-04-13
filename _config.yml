@@ -1,0 +1,23 @@
+# Site settings
+title: Dev Life
+email: garryhicks21@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Garry Hicks is a junior web developer living in Victoria BC. In his spare time he likes to read, swim, and brew fresh 
+  craft beer. He hopes to one day open a brew pub, where he will probably eat all the profits in the form of nachos and 
+  chicken wings. 
+baseurl: "http://garryhicks.github.io/" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+twitter_username: garrylhicks
+github_username:  garryhicks
+timezone: GMT
+# Build settings
+markdown: kramdown
+defaults: 
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
+      author: "Garry"
+      date: YYYY-MM-DD HH:MM +/-TTTT
