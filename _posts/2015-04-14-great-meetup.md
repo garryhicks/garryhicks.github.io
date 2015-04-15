@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Great meetup tonight"
-date:   2015-04-12 14:30:00 +GMT
+date:   2015-04-14 19:30:00 +GMT
 categories: 'meetups'
 permalink: great-meetup
 image: ../img/beer-image.png
