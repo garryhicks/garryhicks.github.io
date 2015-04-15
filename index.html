@@ -16,7 +16,7 @@ image: img/beer-image.png
         </h2>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y, %l:%M %p" }} • Categories: {{ post.categories }}</span>
         <h3>
-          {{ post.excerpt }}
+          {{ page.content | preview: page.url }}
         </h3>
                 
       </li>
